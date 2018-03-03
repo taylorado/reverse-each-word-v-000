@@ -4,8 +4,8 @@ def reverse_each_word(string)
 wordArray.each do |i|
   wordArray[i].reverse
 end
-
-  return wordArray.join(" ")
+newString = wordArray.join(" ")
+  return newString
 
 
 end
